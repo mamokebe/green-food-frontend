@@ -19,8 +19,11 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
 
-  //backend url
-  const url = "http://localhost:4400";
+  //backend url local
+  // const url = "http://localhost:4400";
+
+  //backend url deployed
+  const url = "https://green-food-backend.onrender.com";
 
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
