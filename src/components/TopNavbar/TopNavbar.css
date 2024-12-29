@@ -1,0 +1,24 @@
+.top-navbar .top {
+  background-color: #00684a;
+  padding: 13px 0px;
+  color: #000;
+
+  text-align: center;
+}
+
+.top-navbar .top p {
+  font-weight: 600;
+  font-size: 16px;
+}
+.top-navbar .top p:hover {
+  cursor: pointer;
+  text-decoration: underline #77be41;
+  color: #f2f7f8;
+  /* color: #d47d03; */
+}
+@media (max-width: 750px) {
+  .top-navbar .top p {
+    font-weight: 400;
+    font-size: 13px;
+  }
+}
